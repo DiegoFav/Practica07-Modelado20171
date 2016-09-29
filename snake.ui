@@ -56,16 +56,56 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QSpinBox" name="numFilas"/>
+      <widget class="QSpinBox" name="numFilas">
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>50</number>
+       </property>
+       <property name="value">
+        <number>20</number>
+       </property>
+      </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QSpinBox" name="numColumnas"/>
+      <widget class="QSpinBox" name="numColumnas">
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>50</number>
+       </property>
+       <property name="value">
+        <number>20</number>
+       </property>
+      </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QSpinBox" name="tamColumnas"/>
+      <widget class="QSpinBox" name="tamColumnas">
+       <property name="minimum">
+        <number>4</number>
+       </property>
+       <property name="maximum">
+        <number>16</number>
+       </property>
+       <property name="value">
+        <number>16</number>
+       </property>
+      </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QSpinBox" name="tamFilas"/>
+      <widget class="QSpinBox" name="tamFilas">
+       <property name="minimum">
+        <number>4</number>
+       </property>
+       <property name="maximum">
+        <number>16</number>
+       </property>
+       <property name="value">
+        <number>16</number>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -90,7 +130,11 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QLineEdit" name="url"/>
+      <widget class="QLineEdit" name="url">
+       <property name="text">
+        <string>127.0.0.1</string>
+       </property>
+      </widget>
      </item>
      <item row="1" column="1">
       <widget class="QSpinBox" name="puerto"/>
@@ -147,7 +191,14 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QLineEdit" name="urlServ"/>
+      <widget class="QLineEdit" name="urlServ">
+       <property name="text">
+        <string>127.0.0.1</string>
+       </property>
+       <property name="placeholderText">
+        <string/>
+       </property>
+      </widget>
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_6">
@@ -157,7 +208,14 @@
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QSpinBox" name="numPuerto"/>
+      <widget class="QSpinBox" name="numPuerto">
+       <property name="maximum">
+        <number>10000</number>
+       </property>
+       <property name="value">
+        <number>8000</number>
+       </property>
+      </widget>
      </item>
      <item row="3" column="0">
       <widget class="QPushButton" name="btnConectar">
