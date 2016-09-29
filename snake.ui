@@ -289,15 +289,94 @@
      <string>Comenzar el Juego</string>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="View">
+   <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>0</y>
-      <width>611</width>
-      <height>581</height>
+      <y>10</y>
+      <width>621</width>
+      <height>571</height>
      </rect>
     </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="rowCount">
+     <number>20</number>
+    </property>
+    <property name="columnCount">
+     <number>20</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>16</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>2</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>16</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>2</number>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
